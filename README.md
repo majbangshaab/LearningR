@@ -1,5 +1,7 @@
 # LearningR: Practicing awesomeness
 
+#test af at hente filer til git. 
+
 TODO: Give a brief description of what your project is about
 
 This project...
