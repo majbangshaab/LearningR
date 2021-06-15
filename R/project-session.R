@@ -1,4 +1,4 @@
-10
+source(here::here("R/package-loading.R"))
 
 # Basics of R -------------------------------------------------------------
 
@@ -38,3 +38,4 @@ c(9
   }
 
   styler::style_file(project-session)
+styler::style_file(project-session)
