@@ -1,4 +1,4 @@
-# LearningR: Practicing awesomeness
+# LearningR: Practicing boringness..
 
 #test af at hente filer til git. 
 
