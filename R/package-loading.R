@@ -1,2 +1,2 @@
 library(tidyverse)
-libray(NHANES)
+library(NHANES)
