@@ -54,3 +54,18 @@ nhanes_small %>% colnames()
 nhanes_small %>%
     select(phys_active) %>%
     rename(physically_active = phys_active)
+
+## Summary statistics by group
+nhanes_small %>%
+    summarise(max_bmi = max(bmi))
+
+nhanes_small %>%
+    summarise(max_bmi = max(bmi, na.rm = TRUE))
+
+nhanes_small %>%
+    summarise(sum_na = sum(is.na(bmi)))
+
+#calculating 2 summart statistics
+nhanes_small %>%
+    summarise(max_bmi = max(bmi, na.rm = TRUE),
+                            min_bmi = min(bmi, na.rm = TRUE))
