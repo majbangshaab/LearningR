@@ -2,7 +2,7 @@
 title: "Trying out R Markdown"
 author: "Maj Bangshaab"
 date: "16/6/2021"
-output: html_document
+output: word_document
 ---
 
 1. Maj Bangshaab
